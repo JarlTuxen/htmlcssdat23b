@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dat23b HTML & CSS Demo</title>
+</head>
+<body>
+
+<h1>Min overskrift</h1>
+<div>
+    <p>
+        Min første tekstsektion
+    </p>
+    <p>
+        Mit billede af Bulbasaur
+    </p>
+    <p>
+        <img src="../static/images/1.png" th:src="@{images/1.png}" width="96" height="96">
+    </p>
+    <p>
+        <a href="http://www.w3schools.com">Go to W3Schools!</a>
+    </p>
+    <div>
+        <input type="text" placeholder="skriv din tekst her">
+        <button>Tryk her</button>
+    </div>
+
+</div>
+</body>
+</html>
