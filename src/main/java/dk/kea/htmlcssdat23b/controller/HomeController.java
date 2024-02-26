@@ -15,4 +15,9 @@ public class HomeController {
     public String threeBoxes() {
         return "threeboxes";
     }
+
+    @GetMapping("/flexmenu")
+    public String flexMenu(){
+        return "flexmenu";
+    }
 }
