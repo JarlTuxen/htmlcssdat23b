@@ -1,0 +1,22 @@
+.inline {
+    /* kommentar for inline style */
+    display: inline;
+    /*background-color: aqua;*/
+    background-color: #FF0000;
+}
+
+.block {
+    display: block;
+    /*background-color: beige;*/
+    background-color: #00FF00;
+}
+
+.nostyle {
+    /*background-color: cyan;*/
+    background-color: #0000FF;
+}
+
+#overskrift {
+    /* colors are given in RGB hexadecimal */
+    color: #A0A0A0;
+}
